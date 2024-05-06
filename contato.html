@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/ag.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> <!-- link para se referenciar ao arquivo style.css externo -->
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Como falar comigo?</h1>
+    <p>Você pode me encontrar por aqui:</p>
+    <ul>
+        <li> <img src="imagens/icone-github.png" alt="logo GitHub em preto e branco"> - <a href="https://github.com/blueans?tab=repositories" target="_blank">Ana Carolina Gomes</a> Aqui está o meu GitHub! </li>
+        <li> <img src="imagens/icone-instagram.png" alt="Logo instagram em preto e branco"> - <a href="https://www.instagram.com/blueans_?igsh=YW05MHZ1bnI4eWsz&utm_source=qr" target="_blank">@blueans</a> Esse é o meu perfil no Instagram! </li>
+        <li> <img src="imagens/icone-linkedin.png" alt="Logo Linkedin em preto e branco"> - <a href="https://www.linkedin.com/in/anac-gomes/" target="_blank">Ana Carolina Gomes</a> Conecte-se comigo também no Linkedin!</li>
+    </ul>
+
+    <p>Ou entre em contato direto por aqui:</p> 
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome" required placeholder="Seu Nome Completo"></td>  
+                <!-- required placeholder vai fazer aparecer no campo que deve ser preenchido a mensagem escrita entre as aspas, deixando mais intuitivo para o usuário -->
+            </tr>
+            <tr>
+                <th><label for="email">Email:</label></th>
+                <td><input type="email" name="email" id="email" required placeholder="seuemail@domnio.com"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite sua mensagem:</label></th>
+                <td><textarea name="msg" rows="5" cols="60">Digite sua mensagem</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+
+    <h2>Veja mais clicando em uma das opções a baixo:</h2>
+    <ul>
+        <li><a href="index.html" rel="prev" >Clique aqui para voltar a página principal</a></li>
+        <li><a href="portfolio.html" rel="next">Clique aqui para ver meu portfólio!</a></li>
+        <a href="academica.html" rel="next"><li>Clique aqui para ver minha formação acadêmica!</li></a>
+    </ul>
+</body>
+</html>

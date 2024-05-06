@@ -1,0 +1,43 @@
+@charset "UTF-8";/* regrinha falando que ele é compativel com o padrão UTF-8. */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #FACFCE;
+}
+
+h1{
+    text-align: center;
+    color: #023535;
+}
+
+h2{
+    color: #015958;
+    text-align: center;
+}
+
+h3{
+    color: #008F8C;
+    text-align: center;
+}
+
+
+a{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #015958;
+}
+
+/* comando que tira os pontos das listas para deixar visualmente mais agradavel */
+li { 
+    list-style-type: none;
+    text-align: center;
+  }
+
+form{
+    margin: 40px auto;
+    max-width: 400px;
+}
